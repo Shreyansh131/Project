@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgb(85, 108, 156);
+    
+    
+}
+.project{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.project img{
+    
+    width: 100%;
+    height: 2500px;
+    
+}
+.centered{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    color: rgb(9, 79, 192);
+    font-size: 250px;
+    text-align: center;
+    font-family: "Italianno", cursive;
+}
+.below{
+    position: absolute; 
+    font-size: 260px;
+    top: 48%;
+    left: 18%;
+    color: rgb(9, 79, 192);
+    font-family: "Italianno", cursive;
+    
+}
+.pic{
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+}
+.my-image{
+    position: relative;
+    padding-top: 5%;
+    text-align: center;
+}
+.my-image p{
+    font-size: 100px;
+    color: rgb(24, 54, 97);
+    font-family: "Italianno", cursive;
+    padding: 0%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+}
+h2{
+    color: rgb(24, 54, 96);
+    font-size: 120px;
+    font-family: "Italianno", cursive;
+    font-weight: 50;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-weight: 500;
+}
+h1{
+    font-size: 150px;
+    color: rgb(7, 40, 103);
+}
+
+.skill-i{
+    font-size: 100px;
+    color: rgb(16, 24, 92);
+    text-align: center;
+ }
+ .touch{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(16, 24, 92);
+ }
+ .touch-i{
+    font-size: 120px;
+    font-weight: 500;
+    color:  rgb(16, 24, 92);
+ }
+ .btn{
+    background: rgb(140, 26, 26);
+    color: white;
+    font-size: 80px;
+    padding: 35px;
+    border-radius: 25px;
+    
+    
+ }
+ .last{
+    margin-top: 80px;
+    background-color: aqua;
+    height: 700px;
+    text-align: center;
+    font-size: 90px;
+    
+ }
+@media(max-width:1000px),(min-width:500px){
+    .project{
+        height: 800px;
+        
+    }
+    
+    .centered{
+        font-size: 150px;
+    }
+    .below{
+        font-size: 120px;
+        padding-top: 75%;
+        left: 100;
+    }
+    .pic{
+        height: 120px;
+        width: 120px;
+    }
+}
